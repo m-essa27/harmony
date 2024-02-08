@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap');
+html,
+body {
+    direction: rtl;
+    text-align: right;
+}
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif !important;
+    font-weight: 500;
+}
+.text-col .brand-card p {
+    text-align: right;
+    text-align: justify;
+}
+footer .f-menu .link-wr a::after {
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out 0s;
+}
+footer .f-menu .link-wr a:hover::after {
+    transform-origin: right;
+}
+.btn-style1:before {
+    left: auto;
+    right: 0px;
+    border-radius: 100% 0% 0% 100% / 50% 0% 100% 50%;
+    -webkit-border-radius: 100% 0% 0% 100% / 50% 0% 100% 50%;
+    -moz-border-radius: 100% 0% 0% 100% / 50% 0% 100% 50%;
+    -ms-border-radius: 100% 0% 0% 100% / 50% 0% 100% 50%;
+    -o-border-radius: 100% 0% 0% 100% / 50% 0% 100% 50%;
+}
+.navbar .navbar-nav {
+    margin-left: 0;
+    margin-right: auto;
+    padding-right: 0;
+}
+.fixed-soc {
+    right: auto;
+    left: 0;
+}
+@media (min-width: 992px) {
+    .fixed-soc {
+        right: auto;
+        left: 0;
+    }
+}
+.tabs-wr .nav-tabs .nav-link::before {
+    left: auto;
+    right: 1rem;
+    transform-origin: left center;
+}
+.tabs-wr .nav-tabs .nav-item.show .nav-link::before,
+.tabs-wr .nav-tabs .nav-link.active::before {
+    transform-origin: right;
+}
+.serv-card .stroke {
+    transform: translateX(-120%);
+    -webkit-transform: translateX(-120%);
+    -moz-transform: translateX(-120%);
+    -ms-transform: translateX(-120%);
+    -o-transform: translateX(-120%);
+}
+.proj-cont2 .card-lay .lay-content .cat {
+    margin-top: .5rem;
+}
+.card-lay .lay-content .cat {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-lay .lay-content .cat span {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+.nav {
+    padding-right: 0;
+}
+.breadcrumb .crumb-item:not(:last-child)::after {
+    content: " \f105";
+    font-family: FontAwesome;
+    position: absolute;
+    right: auto;
+    left: -15px;
+    color: inherit !important;
+    transform: rotate(180deg);
+}
+.modal-header .close {
+    margin: -1rem;
+    margin-right: auto;
+}
+.nav-abs {
+    right: auto;
+    left: 50px;
+}
+.nav-abs .dropdown-toggle img {
+    height: 16px;
+    margin-right: 0;
+    margin-left: 2px;
+    max-width: 22px;
+}
+.nav-abs .dropdown-item {
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav-abs .dropdown-item {
+    padding: 8px 3px;
+    padding-left: 3px;
+    padding-right: 8px;
+    text-align: right;
+}
+@media(min-width : 992px) {
+    #navbarNav {
+        padding-right: 0;
+        padding-left: 6.5rem;
+    }
+    .nav-abs {
+        right: auto;
+        left: 0;
+    }
+}
+#mainNav .nav-abs .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+.btn-style1,
+#mainNav .navbar-nav,
+.banner-content h2,
+.tabs-cont,
+.sec-title,
+.serv-cont,
+.projects-cont,
+.modal-style,
+.breadcrumb {
+    font-family: 'Tajawal', sans-serif;
+}
+.sec-slider-cont .wrap span.txt {
+    font-size: 20px;
+}
+footer,
+.nav-abs .dropdown-item,
+.form-style.fstyle2 option,
+footer strong,
+.nav-abs .dropdown-toggle,
+.form-style p,
+.serv-card p,
+#mainNav .navbar-nav,
+.tabs-wr .nav-tabs .nav-link,
+.tabs-cont,
+.tabs-wr .tab-pane,
+.text-col .brand-card p {
+    font-size: 15px;
+}
+.btn-style1 {
+    font-size: 16px;
+}
+.card-lay .lay-content .cat span,
+.proj-card .card-link .card-lay .lay-content .det {
+    font-size: 13px;
+}
+.form-style input,
+.form-style textarea {
+    font-size: 14px;
+}
+.sec-slider-cont .wrap span.txt {
+    font-size: 17px;
+    color: #232930;
+    font-weight: 600;
+    position: absolute;
+    left: auto;
+    right: -38px;
+}
+.sec-slider .swiper-slide a::after {
+    left: auto;
+    right: 0;
+}
